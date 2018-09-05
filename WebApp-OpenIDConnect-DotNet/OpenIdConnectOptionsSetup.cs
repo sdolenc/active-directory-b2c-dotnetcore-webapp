@@ -119,7 +119,7 @@ namespace WebApp_OpenIDConnect_DotNet
                 catch (Exception ex)
                 {
                     //TODO: Handle
-                    throw;
+                    throw ex;
                 }
             }
         }
